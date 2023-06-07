@@ -3,7 +3,8 @@ const { createApp } = Vue;
 createApp({
     data(){
         return{
-            messaggio: 'Questo è il messaggio'
+            messaggio: 'Amo la pizza',
+            image: './img/pizza.jpg'
         }
     },
 }).mount('#app')
